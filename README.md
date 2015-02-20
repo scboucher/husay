@@ -31,7 +31,7 @@ MIT © [Samuel Boucher]()
 
 [npm-url]: https://npmjs.org/package/husay
 [npm-image]: https://badge.fury.io/js/husay.svg
-[travis-url]: https://travis-ci.org/sboucher/husay
-[travis-image]: https://travis-ci.org/sboucher/husay.svg?branch=master
-[daviddm-url]: https://david-dm.org/sboucher/husay.svg?theme=shields.io
-[daviddm-image]: https://david-dm.org/sboucher/husay
+[travis-url]: https://travis-ci.org/scboucher/husay
+[travis-image]: https://travis-ci.org/scboucher/husay.svg?branch=master
+[daviddm-url]: https://david-dm.org/scboucher/husay.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/scboucher/husay
