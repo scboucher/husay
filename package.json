@@ -2,7 +2,6 @@
   "name": "husay",
   "version": "0.0.0",
   "description": "Hubot saying stuff",
-
   "author": {
     "name": "Samuel Boucher",
     "email": ""
@@ -20,7 +19,7 @@
     "yosay"
   ],
   "dependencies": {
-    "meow": "^2.0.0"
+    "meow": "^3.0.0"
   },
   "devDependencies": {
     "grunt-cli": "^0.1.13",
