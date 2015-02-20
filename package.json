@@ -7,7 +7,7 @@
     "name": "Samuel Boucher",
     "email": ""
   },
-  "repository": "sboucher/husay",
+  "repository": "https://github.com/scboucher/husay",
   "license": "MIT",
   "files": [
     "index.js",
