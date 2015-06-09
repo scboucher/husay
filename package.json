@@ -19,7 +19,7 @@
     "yosay"
   ],
   "dependencies": {
-    "chalk": "^0.5.1",
+    "chalk": "^1.0.0",
     "meow": "^3.0.0"
   },
   "devDependencies": {
