@@ -1,13 +1,15 @@
 /*global describe, it */
+/*jshint expr: true*/
+/* jshint -W024 */
 'use strict';
 var parser = require('../lib/stringParser');
-var should = require('chai').should();
+var expect = require('chai').expect;
 
 describe('husay node module', function () {
   it(' tests the namePatser method', function () {
-    parser.nameParser('Hubot').should.equal('Hubot');
-    parser.nameParser('Hubotdfgdgfdfg').should.equal('Hubot');
-    parser.nameParser('Hubo').should.equal('Hubo');
-    parser.firstLine('Hubo').should.equal('/            Hubo             \\');
+    expect(parser.nameParser('Hubot')).to.equal('Hubot');
+    expect(parser.nameParser('Hubotdfgdgfdfg')).to.equal('Hubot');
+    expect(parser.nameParser('Hubo')).to.equal('Hubo');
+    expect(parser.firstLine('Hubo')).to.equal('/            Hubo             \\');
   });
 });
