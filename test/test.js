@@ -1,8 +1,6 @@
 /*global describe, it */
 'use strict';
-var assert = require('assert');
-var parser = require('../lib/stringParser')
-var husay = require('../');
+var parser = require('../lib/stringParser');
 var should = require('chai').should();
 
 describe('husay node module', function () {
