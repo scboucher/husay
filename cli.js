@@ -13,4 +13,4 @@ var cli = meow({
   ].join('\n')
 });
 
-husay(cli.input[0]);
+husay(cli.input[0],cli.input[1], cli.input[2]);

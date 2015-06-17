@@ -1,10 +1,9 @@
 'use strict';
 var husay = require('./lib/husay');
-module.exports = function (str) {
+module.exports = function (str, main, accent) {
     //console.log(str || 'Rainbow');
-    husay.setColors('yellow', 'cyan');
-    console.log(husay.endSay(' DBOT', ' One'));
-    husay.setColors('blue', 'green');
-    console.log(husay.endSay('JOBOT'));
-
+    main = main || 'yellow'
+    accent = accent || 'cyan'
+    husay.setColors(main, accent);
+    console.log(husay.endSay(' DBOT', str));
 };
