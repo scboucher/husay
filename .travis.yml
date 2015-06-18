@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - '0.10'
+- '0.10'
+deploy:
+  provider: npm
+  email: boucher.samuel.c@gmail.com
+  api_key:
+    secure: N1BTQPxPI2iHRRcw/6B1uiH8DayiaIdML22UWoFL8RyPFmAPjHHDI7vMFzbFkU5iFH5by9Jeib2tuG5+qvXoEo/ivl1ADx45QOnP9ehuHpDmGiubxHjnWM3+O7hmo/YHBcXgB7+Z+wzlItfVT3J4eJkbLWnV9cHaeKJR4ObBqOc=
+  on:
+    tags: true
+    repo: scboucher/husay
