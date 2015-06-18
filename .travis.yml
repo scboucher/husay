@@ -5,7 +5,7 @@ deploy:
   provider: npm
   email: boucher.samuel.c@gmail.com
   api_key:
-    secure: Ok9BlR0bxQPwcVhdkjlo5Kl+6hZaVyvr8Mqj9MglD7FZiiwy30e4tFQRyVmLzPEjH6zIR6FZPpG/8GxaWlEq6XtLFAt3Y7QbXIgKLai4YYIwlVme9D9katGtZDJq5DmysgtQgY0dy+sMkBsbNxWcqdlVtjASs/3qgViM8yk/CNM=
+    secure: GFoObLVPrC/GY0V9Rt38M2oHLhIjJQkG0pqJ248ktEJQ9b+Xn2Qe21HVwUDJV+qFdvDWdBxf5n54WqJ8LjckKYdHhyBPosj5Yc5qiDjc5ceaL3MqaJvHRZ/WAxK6+zSwwRkwVVclFAKW0Rc27yChxtv8Ohao/1UXMmdR3Qtfkeg=
   on:
     tags: true
     repo: scboucher/husay
